@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Jake Lowe",
     role: "CEO, BuildSmart Ltd.",
-    text: "This Company exceeded our expectations. Their attention to detail and commitment to quality were outstanding!",
+    text: "This Company exceeded our expectations. Their attention to detail and commitment to quality were outstanding!&quot;", // Fixed the unescaped quote
     src: p2,
   },
   {
