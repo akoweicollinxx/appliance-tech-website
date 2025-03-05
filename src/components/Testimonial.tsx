@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Image from "next/image";
 
+
 import p1 from "../assests/p1.jpg";
 import p2 from "../assests/p2.jpg";
 import p3 from "../assests/p3.jpg";
@@ -12,7 +13,7 @@ const testimonials = [
   {
     name: "Jake Lowe",
     role: "CEO, BuildSmart Ltd.",
-    text: "This Company exceeded our expectations. Their attention to detail and commitment to quality were outstanding!&quot;", // Fixed the unescaped quote
+    text: "This Company exceeded our expectations. Their attention to detail and commitment to quality were outstanding!",
     src: p2,
   },
   {
